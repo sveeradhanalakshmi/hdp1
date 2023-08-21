@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 import numpy as np
-pickle_in=open('hdp.pkl','rb')
+pickle_in=open('HeartDisP.pkl','rb')
 clf=pickle.load(pickle_in)
 
 def main():
